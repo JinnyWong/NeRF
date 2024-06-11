@@ -18,6 +18,7 @@ NeRF
         |__ report            // project report
         |__ slides            // project presentation slides
         |__ demo              // demo GIFs
+  |__ dream-gaussian          // dream gaussian notebook & generated 3d model
   |__ eval                    // .json evaluation outputs
   |__ LICENSE 		             
   |__ models                 // trained models
@@ -53,8 +54,15 @@ For more details about the project, please check out our report and presentation
 - [Project presentation slides (PDF)]()
 
 ## Extras 
+For the extra part of our project, we've decided to build a 3D model and animation of Professor Yan Bo from a 2D image. 
 
+The 3D model was built with DreamGaussian, and the animations were done with Mixamo.
 
+2D image:
+![](assets/demo/baseline.png)
+
+Generated 3D model and animation:
+![](assets/demo/extra.gif)
 
 ## License
 Copyright © 2024 JinnyWong, Ng Yu Yue, Zhou Tao, Goh Xin Yie. 
