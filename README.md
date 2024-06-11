@@ -59,9 +59,11 @@ For the extra part of our project, we've decided to build a 3D model and animati
 The 3D model was built with DreamGaussian, and the animations were done with Mixamo.
 
 2D image:
+
 ![](assets/demo/baseline.png)
 
 Generated 3D model and animation:
+
 ![](assets/demo/extra.gif)
 
 ## License
