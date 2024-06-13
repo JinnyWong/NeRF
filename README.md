@@ -20,12 +20,12 @@ NeRF
         |__ report            // project report
         |__ slides            // project presentation slides
         |__ demo              // demo GIFs
-  |__ dream-gaussian          // dream gaussian notebook & generated 3d model
   |__ eval                    // .json evaluation outputs
   |__ LICENSE 		             
   |__ models                 // trained models
         |__ nerfacto
         |__ splatfacto
+  |__ notebooks              // Jupyter notebooks for training
   |__ README.md
 ```
 
@@ -50,23 +50,23 @@ PSNR (Peak Signal-to-Noise Ratio) is a measure of the peak error between the ren
 | M60 Tank | Nerfacto  | 19.25  |
 | M60 Tank  | Splatfacto  | 27.46  |
 
+## Extras 
+For the extra part of our project, we've decided to reconstruct a 3D model from a 2D toy tank image with DreamGaussian.
+
+
+
+2D base image:
+
+<img src="assets/demo/tank.png">
+
+Generated 3D model:
+
+![](assets/demo/dream-gaussian.gif)
+
 ## Documentation
 For more details about the project, please check out our report and presentation slides.
-- [Project report (PDF)]()
-- [Project presentation slides (PDF)]()
-
-## Extras 
-For the extra part of our project, we've decided to build a 3D model and animation of Professor Yan Bo from a 2D image. 
-
-The 3D model was built with DreamGaussian, and the animations were done with Mixamo.
-
-2D image:
-
-<img src="assets/demo/baseline.png" height="700" width="500">
-
-Generated 3D model and animation:
-
-![](assets/demo/extra.gif)
+- [Project report (PDF)](assets/NeRF-report.pdf)
+- [Project presentation slides (PDF)](assets/NeRF-slides.pdf)
 
 ## License
 Copyright © 2024 JinnyWong, Ng Yu Yue, Zhou Tao, Goh Xin Yie. 
