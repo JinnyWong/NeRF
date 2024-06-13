@@ -5,9 +5,11 @@ Project for Fudan University Computer Graphics course, spring 2024. Instructed b
 
 ## Demo
 Nerfacto model render:
+
 ![](assets/demo/nerfacto.gif)
 
 Splatfacto model render:
+
 ![](assets/demo/splatfacto.gif)
 
 
@@ -60,7 +62,7 @@ The 3D model was built with DreamGaussian, and the animations were done with Mix
 
 2D image:
 
-![](assets/demo/baseline.png)
+<img src="assets/demo/baseline.png" height="700" width="500">
 
 Generated 3D model and animation:
 
